@@ -97,8 +97,8 @@ minimal-blog-card/
 
 ## Author
 
-- GitHub: [@your-username](https://github.com/your-username)
-- Twitter: [@your-handle](https://twitter.com/your-handle)
+- GitHub: [77Kromo](https://github.com/77Kromo)
+- X : [Kromo77](https://x.com/kromo772004)
 - LinkedIn: Krowey Richmond Borquaye
 
 [def]: https://devchallenges.io/challenges-dashboard
