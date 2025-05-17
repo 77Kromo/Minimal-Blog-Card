@@ -1,19 +1,17 @@
-<!-- Please update value in the {}  -->
-
-<h1 align="center">{Your project name} | devChallenges</h1>
+# Minimal Blog Card | devChallenges
 
 <div align="center">
-   Solution for a challenge <a href="https://devchallenges.io/challenge/minimal-blog-card" target="_blank">Minimal Blog Card</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
+  Solution for the <a href="https://devchallenges.io/challenge/minimal-blog-card" target="_blank">Minimal Blog Card</a> challenge from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
 </div>
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
-      Demo
+    <a href="https://your-demo-link.com">
+      Live Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
-      Solution
+    <a href="https://github.com/your-username/minimal-blog-card">
+      Solution Code
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenge/minimal-blog-card">
@@ -22,70 +20,81 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Overview](#overview)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Built with](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
-<!-- OVERVIEW -->
-
 ## Overview
 
+![Screenshot][def2]
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+A minimalist, responsive blog card component built with semantic HTML and modern CSS. This project demonstrates clean design, accessibility, and responsive techniques.
 
-<!--
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+### Key Features
 
-- What have you learned/improved?
-- Your wisdom? :)
--->
+- ✅ Mobile-first, fully responsive design
+- ✅ Semantic HTML5 structure
+- ✅ CSS custom properties for easy theming
+- ✅ Smooth transitions for layout changes
+- ✅ Accessible color contrast and descriptive alt text
 
-### What I learned
+## Built With
 
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
+- Semantic HTML5
+- CSS3 (Flexbox, Media Queries)
+- Responsive Design Principles
+- Google Fonts (Sora)
 
-### Useful resources
+## What I Learned
 
-<!--
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--->
+**Responsive Design**
+- Used relative units for fluid layouts
+- Added breakpoints at 768px, 480px, and 360px
 
-### Built with
+**CSS Best Practices**
+```css
+/* Example: Transition effects */
+.card {
+  transition: width 0.3s ease, margin 0.3s ease;
+}
+```
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+**Accessibility**
+- Provided descriptive alt text for images
+- Ensured sufficient color contrast
+- Used semantic HTML elements
 
-- Semantic HTML5 markup
-- CSS custom properties
+**Performance Optimization**
+- Used efficient CSS selectors
+- Minimized repaints with transitions
 
-## Folder Structure
+## Project Structure
 
 ```
-.
+minimal-blog-card/
 ├── index.html
 ├── styles.css
+├── README.md
 └── resources/
+    ├── Cactus.jpg
     └── favicon.ico
 ```
 
-## Features
+## How to Use
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/minimal-blog-card.git
+   ```
+2. Open `index.html` in your browser.
 
 ## Acknowledgements
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+- This project was created as a submission to a [DevChallenges][def] challenge.
+- Google Fonts for the Sora typeface
+- CSS Tricks for responsive design techniques
 
 ## Author
 
-- GitHub [@your-username](https://{github.com/your-usermame})
+- GitHub: [@your-username](https://github.com/your-username)
+- Twitter: [@your-handle](https://twitter.com/your-handle)
+- LinkedIn: Your Name
+
+[def]: https://devchallenges.io/challenges-dashboard
+[def2]: /resources/screenshot.png
