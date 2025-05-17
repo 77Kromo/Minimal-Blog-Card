@@ -1,21 +1,33 @@
 * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
 
-      body {
-        height: 100vh;
-      }
+body {
+  height: 100vh;
+}
 
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
 
-      .author-info a {
-        text-decoration: none;
-         color:  #4E80EE;
-      }
+.author-info a {
+  text-decoration: none;
+  color: #4e80ee;
+}
+
+.card {
+  text-align: center;
+  width: 368px;
+  margin: 164px auto;
+}
+
+.card-image {
+  width: 336px;
+  height: 152px;
+}
