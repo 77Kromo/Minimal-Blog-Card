@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://your-demo-link.com">
+    <a href="https://min-blog-card.netlify.app/">
       Live Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/your-username/minimal-blog-card">
+    <a href="https://github.com/77Kromo/Minimal-Blog-Card">
       Solution Code
     </a>
     <span> | </span>
@@ -44,10 +44,12 @@ A minimalist, responsive blog card component built with semantic HTML and modern
 ## What I Learned
 
 **Responsive Design**
+
 - Used relative units for fluid layouts
 - Added breakpoints at 768px, 480px, and 360px
 
 **CSS Best Practices**
+
 ```css
 /* Example: Transition effects */
 .card {
@@ -56,11 +58,13 @@ A minimalist, responsive blog card component built with semantic HTML and modern
 ```
 
 **Accessibility**
+
 - Provided descriptive alt text for images
 - Ensured sufficient color contrast
 - Used semantic HTML elements
 
 **Performance Optimization**
+
 - Used efficient CSS selectors
 - Minimized repaints with transitions
 
@@ -73,6 +77,7 @@ minimal-blog-card/
 ├── README.md
 └── resources/
     ├── Cactus.jpg
+    ├──screenshot.png
     └── favicon.ico
 ```
 
@@ -80,7 +85,7 @@ minimal-blog-card/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/minimal-blog-card.git
+   git clone https://github.com/77Kromo/Minimal-Blog-Card.git
    ```
 2. Open `index.html` in your browser.
 
@@ -94,7 +99,7 @@ minimal-blog-card/
 
 - GitHub: [@your-username](https://github.com/your-username)
 - Twitter: [@your-handle](https://twitter.com/your-handle)
-- LinkedIn: Your Name
+- LinkedIn: Krowey Richmond Borquaye
 
 [def]: https://devchallenges.io/challenges-dashboard
 [def2]: /resources/screenshot.png
